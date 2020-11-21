@@ -1,0 +1,24 @@
+Create table ItemTable
+(
+	item_no varchar2(20) primary key,
+	i_name varchar2(40),
+	quant number(5),
+	price number(5,2),
+	amount number(5,2)
+);
+Create table InsertItem
+(
+	item_no varchar2(20),
+	i_name varchar2(40),
+	quant varchar2(2),
+	price varchar2(6),
+	netprice varchar2(6)
+);
+Create table ItemReport
+(
+	item_no varchar2(20),
+	item_name varchar2(40),
+	quantity varchar2(2),
+	price varchar2(7),
+	total_price varchar2(7)
+);
