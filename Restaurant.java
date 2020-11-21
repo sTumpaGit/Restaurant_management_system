@@ -1,7 +1,7 @@
 /*
 Restaurant Management System
 UserId: admin
-password: *****  // set your own
+password: myself	
 */
 import java.awt.*;
 import java.awt.event.*;
@@ -455,7 +455,7 @@ class LoginPage extends JFrame implements ActionListener
 			String usr=user.getText();
 			String psw=pass.getText();
 			
-			if(usr.equals("admin")&&psw.equals("tumpa"))
+			if(usr.equals("admin")&&psw.equals("myself"))
 			{
 				if(rb1.isSelected())
 				{
